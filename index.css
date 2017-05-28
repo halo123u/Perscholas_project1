@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    background: url('https://static-mh.content.disney.io/starwars/assets/background/bg_starsL-fd4661a3ccea.jpg');
+}
+body{
+    height:2500px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+li {
+    flex:1;    
+    color:white;
+
+}
+.items{
+    padding-top: 1%;
+}
+#logo{
+    flex:11;
+}
+#hero2 {
+    /*background: url('https://vignette1.wikia.nocookie.net/starwars/images/a/aa/Rogue_One_A_Star_Wars_Story_poster.png/revision/latest?cb=20160715171410'); */
+    /*background: url('https://i.ytimg.com/vi/ZgtRXRQwVWM/maxresdefault.jpg');*/
+    background:url('https://images6.alphacoders.com/787/thumb-1920-787058.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 33%;
+}
+#hero1 {
+    /*background: url('https://vignette1.wikia.nocookie.net/starwars/images/a/aa/Rogue_One_A_Star_Wars_Story_poster.png/revision/latest?cb=20160715171410'); */
+    /*background: url('https://desktopwallpapers.us/wp-content/uploads/2016/11/Stormtroopers-Rogue-One-a-Star-Wars-Story.jpg');*/
+    /*background:url('https://images6.alphacoders.com/787/thumb-1920-787058.jpg');*/
+    background: url('http://orig05.deviantart.net/a623/f/2016/304/e/b/rogue_one_wallpaper__textless_theatrical_poster__by_spirit__of_adventure-damtloc.png');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    height: 33%;
+}
+
+#hero3 {
+    /*background: url('https://vignette1.wikia.nocookie.net/starwars/images/a/aa/Rogue_One_A_Star_Wars_Story_poster.png/revision/latest?cb=20160715171410'); */
+    background: url('https://desktopwallpapers.us/wp-content/uploads/2016/11/Stormtroopers-Rogue-One-a-Star-Wars-Story.jpg');
+    /*background:url('https://images6.alphacoders.com/787/thumb-1920-787058.jpg');*/
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    height: 33%;
+}
