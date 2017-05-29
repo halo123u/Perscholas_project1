@@ -38,7 +38,6 @@ tr{
 }
 td{
     flex:1;
-    border:solid white 1px;
     text-align: center;
     
 }
@@ -64,20 +63,43 @@ button{
     margin-left: auto;
     margin-right: auto;
 }
+.dropdown{
+    position: relative;
+    flex: 1;
+    display: block;
+}
+.dropdown-content{
+    color: white;
+    display: none;
+    position: absolute;
+    margin-top: 10%;
+    background-color: rgba(0, 0, 0, .5) ;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 5%;
+    transition: 2s;
+}
 .heading1{
     color: white;
     padding-top:3%;
 }
+.poster{
+    width:150px;
+    height:250px;
+}
 .portrait{
     border-radius: 90%;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 .portrait:hover{
     width:300px;
     height:300px;
     transition: 1s;
     position: absolute;
+    margin-left: -10%;
     
 }
 td.right{
@@ -122,11 +144,28 @@ td.left{
     height: 40%;
     width: 30%;
 }
+#line{
+    color: white;
+}
+#timeline{
+    margin-top: 7%;
+}
 .superQuote{
     text-align: center;
     color: rgb(255, 215, 0);
     text-shadow: 2px 2px 4px black;
     font-family: 'Lora', serif;
+}
+.title{
+    color: rgb(255, 215, 0);
+    text-shadow: 3px 3px 6px black;
+}
+.top:hover{
+    width: 200px;
+    height: 350px;
+    position: absolute;
+    padding-top:3%;
+    transition: 1s;
 }
 #myImg{
     cursor: pointer;
