@@ -121,6 +121,7 @@ td.left{
     background-size: 100%;
     background-repeat: no-repeat;
     height: 33%;
+    margin-top:1%;
 }
 #hero1 {
     /*background: url('https://vignette1.wikia.nocookie.net/starwars/images/a/aa/Rogue_One_A_Star_Wars_Story_poster.png/revision/latest?cb=20160715171410'); */
@@ -220,7 +221,7 @@ flex:1;}
     text-shadow: 2px 2px 4px black;
     font-family: 'Lora', serif;
 }
-
+/*Got it from https://www.w3schools.com/howto/howto_css_modals.asp */
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
